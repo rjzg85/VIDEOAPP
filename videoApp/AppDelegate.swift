@@ -16,7 +16,29 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window?.makeKeyAndVisible()
+        let layout = UICollectionViewFlowLayout()
+        // DEFINATE THE START CONTROLLER VIEW IN THE APP
+        window?.rootViewController = UINavigationController(rootViewController: HomeViewController(collectionViewLayout: layout))
+        
+//        UINavigationBar.appearance().barTintColor = UIColor(red: 230/255, green: 32/255, blue: 31/255, alpha: 1)
+        // get rid of button bar in navigation bar
+        UINavigationBar.appearance().shadowImage = UIImage()
+        UINavigationBar.appearance().setBackgroundImage(UIImage(), for: .default)
+        
+        // SET VALUE THE NAVIGATION BAR
+        UINavigationBar.appearance().barTintColor = UIColor.rgv(red: 230, green: 32, blue: 31)
+        application.statusBarStyle = .lightContent
+        // SET COLOR FOR STATUS BAR
+        let statusBarBackgroundView = UIView()
+    statusBarBackgroundView.backgroundColor = UIColor.rgv(red: 194, green: 31, blue: 31)
+        // ADD BAR VIEW ON THE APP
+        //window?.addSubview(statusBarBackgroundView)
+        // SETUP MARGIN AND HEIGHT TO STATUS BAR
+        //window?.addConstrastWithFormat(format: "H:|[v0]|", views: statusBarBackgroundView)
+        //window?.addConstrastWithFormat(format: "V:|[v0(20)]", views: statusBarBackgroundView)
+        
         return true
     }
 

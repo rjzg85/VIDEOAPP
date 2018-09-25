@@ -8,22 +8,44 @@
 
 /* Begin PBXBuildFile section */
 		2050F7C120E1D3CB0040558D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2050F7C020E1D3CB0040558D /* AppDelegate.swift */; };
-		2050F7C320E1D3CB0040558D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2050F7C220E1D3CB0040558D /* ViewController.swift */; };
+		2050F7C320E1D3CB0040558D /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2050F7C220E1D3CB0040558D /* HomeController.swift */; };
 		2050F7C620E1D3CB0040558D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2050F7C420E1D3CB0040558D /* Main.storyboard */; };
-		2050F7C920E1D3CB0040558D /* tabExample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2050F7C720E1D3CB0040558D /* tabExample.xcdatamodeld */; };
+		2050F7C920E1D3CB0040558D /* videoApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2050F7C720E1D3CB0040558D /* videoApp.xcdatamodeld */; };
 		2050F7CB20E1D3CF0040558D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2050F7CA20E1D3CF0040558D /* Assets.xcassets */; };
 		2050F7CE20E1D3CF0040558D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2050F7CC20E1D3CF0040558D /* LaunchScreen.storyboard */; };
+		2050F7D720E341830040558D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2050F7D620E341830040558D /* Extensions.swift */; };
+		2050F7DA20E3424D0040558D /* ViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2050F7D920E3424D0040558D /* ViewCell.swift */; };
+		207022D520EA9FDF00C5CD6E /* MenuBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207022D420EA9FDF00C5CD6E /* MenuBar.swift */; };
+		207022D820EAC18100C5CD6E /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207022D720EAC18100C5CD6E /* Video.swift */; };
+		2085A9BE20F6EF7B000D79DF /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2085A9BD20F6EF7B000D79DF /* ApiService.swift */; };
+		20901D4520EDB16400EBEA8B /* SettingsLauncher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20901D4420EDB16400EBEA8B /* SettingsLauncher.swift */; };
+		20901D4720EDB9F700EBEA8B /* SettingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20901D4620EDB9F700EBEA8B /* SettingCell.swift */; };
+		20D8764D20FC377C002AB13A /* feedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D8764C20FC377C002AB13A /* feedCell.swift */; };
+		20D8764F20FD73AC002AB13A /* TrendingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D8764E20FD73AC002AB13A /* TrendingCell.swift */; };
+		20D8765120FD778A002AB13A /* SubscriptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D8765020FD778A002AB13A /* SubscriptionCell.swift */; };
+		20D8765320FEC79E002AB13A /* VideoLauncher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D8765220FEC79E002AB13A /* VideoLauncher.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2050F7BD20E1D3CB0040558D /* tabExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tabExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2050F7BD20E1D3CB0040558D /* videoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = videoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2050F7C020E1D3CB0040558D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2050F7C220E1D3CB0040558D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2050F7C220E1D3CB0040558D /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		2050F7C520E1D3CB0040558D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2050F7C820E1D3CB0040558D /* tabExample.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = tabExample.xcdatamodel; sourceTree = "<group>"; };
 		2050F7CA20E1D3CF0040558D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2050F7CD20E1D3CF0040558D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2050F7CF20E1D3CF0040558D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2050F7D620E341830040558D /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		2050F7D920E3424D0040558D /* ViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCell.swift; sourceTree = "<group>"; };
+		207022D420EA9FDF00C5CD6E /* MenuBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBar.swift; sourceTree = "<group>"; };
+		207022D720EAC18100C5CD6E /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		2085A9BD20F6EF7B000D79DF /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		20901D4420EDB16400EBEA8B /* SettingsLauncher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsLauncher.swift; sourceTree = "<group>"; };
+		20901D4620EDB9F700EBEA8B /* SettingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingCell.swift; sourceTree = "<group>"; };
+		20D8764C20FC377C002AB13A /* feedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = feedCell.swift; sourceTree = "<group>"; };
+		20D8764E20FD73AC002AB13A /* TrendingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingCell.swift; sourceTree = "<group>"; };
+		20D8765020FD778A002AB13A /* SubscriptionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionCell.swift; sourceTree = "<group>"; };
+		20D8765220FEC79E002AB13A /* VideoLauncher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoLauncher.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +62,7 @@
 		2050F7B420E1D3CB0040558D = {
 			isa = PBXGroup;
 			children = (
-				2050F7BF20E1D3CB0040558D /* tabExample */,
+				2050F7BF20E1D3CB0040558D /* videoApp */,
 				2050F7BE20E1D3CB0040558D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,31 +70,82 @@
 		2050F7BE20E1D3CB0040558D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2050F7BD20E1D3CB0040558D /* tabExample.app */,
+				2050F7BD20E1D3CB0040558D /* videoApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2050F7BF20E1D3CB0040558D /* tabExample */ = {
+		2050F7BF20E1D3CB0040558D /* videoApp */ = {
 			isa = PBXGroup;
 			children = (
+				2085A9BC20F6EF5B000D79DF /* ApiService */,
+				207022D620EAC16D00C5CD6E /* Model */,
+				2050F7DB20E3427F0040558D /* Controller */,
+				2050F7D820E342150040558D /* View */,
+				2050F7D520E3415D0040558D /* Helpers */,
 				2050F7C020E1D3CB0040558D /* AppDelegate.swift */,
-				2050F7C220E1D3CB0040558D /* ViewController.swift */,
 				2050F7C420E1D3CB0040558D /* Main.storyboard */,
 				2050F7CA20E1D3CF0040558D /* Assets.xcassets */,
 				2050F7CC20E1D3CF0040558D /* LaunchScreen.storyboard */,
 				2050F7CF20E1D3CF0040558D /* Info.plist */,
-				2050F7C720E1D3CB0040558D /* tabExample.xcdatamodeld */,
+				2050F7C720E1D3CB0040558D /* videoApp.xcdatamodeld */,
 			);
-			path = tabExample;
+			path = videoApp;
+			sourceTree = "<group>";
+		};
+		2050F7D520E3415D0040558D /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				2050F7D620E341830040558D /* Extensions.swift */,
+				20D8765220FEC79E002AB13A /* VideoLauncher.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		2050F7D820E342150040558D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2050F7D920E3424D0040558D /* ViewCell.swift */,
+				207022D420EA9FDF00C5CD6E /* MenuBar.swift */,
+				20901D4620EDB9F700EBEA8B /* SettingCell.swift */,
+				20D8764C20FC377C002AB13A /* feedCell.swift */,
+				20D8764E20FD73AC002AB13A /* TrendingCell.swift */,
+				20D8765020FD778A002AB13A /* SubscriptionCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2050F7DB20E3427F0040558D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2050F7C220E1D3CB0040558D /* HomeController.swift */,
+				20901D4420EDB16400EBEA8B /* SettingsLauncher.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		207022D620EAC16D00C5CD6E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				207022D720EAC18100C5CD6E /* Video.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2085A9BC20F6EF5B000D79DF /* ApiService */ = {
+			isa = PBXGroup;
+			children = (
+				2085A9BD20F6EF7B000D79DF /* ApiService.swift */,
+			);
+			path = ApiService;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2050F7BC20E1D3CB0040558D /* tabExample */ = {
+		2050F7BC20E1D3CB0040558D /* videoApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2050F7D220E1D3CF0040558D /* Build configuration list for PBXNativeTarget "tabExample" */;
+			buildConfigurationList = 2050F7D220E1D3CF0040558D /* Build configuration list for PBXNativeTarget "videoApp" */;
 			buildPhases = (
 				2050F7B920E1D3CB0040558D /* Sources */,
 				2050F7BA20E1D3CB0040558D /* Frameworks */,
@@ -82,9 +155,9 @@
 			);
 			dependencies = (
 			);
-			name = tabExample;
+			name = videoApp;
 			productName = tabExample;
-			productReference = 2050F7BD20E1D3CB0040558D /* tabExample.app */;
+			productReference = 2050F7BD20E1D3CB0040558D /* videoApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +175,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2050F7B820E1D3CB0040558D /* Build configuration list for PBXProject "tabExample" */;
+			buildConfigurationList = 2050F7B820E1D3CB0040558D /* Build configuration list for PBXProject "videoApp" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +188,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2050F7BC20E1D3CB0040558D /* tabExample */,
+				2050F7BC20E1D3CB0040558D /* videoApp */,
 			);
 		};
 /* End PBXProject section */
@@ -138,9 +211,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2050F7C920E1D3CB0040558D /* tabExample.xcdatamodeld in Sources */,
-				2050F7C320E1D3CB0040558D /* ViewController.swift in Sources */,
+				20901D4520EDB16400EBEA8B /* SettingsLauncher.swift in Sources */,
+				2050F7C920E1D3CB0040558D /* videoApp.xcdatamodeld in Sources */,
+				2050F7C320E1D3CB0040558D /* HomeController.swift in Sources */,
+				20D8765320FEC79E002AB13A /* VideoLauncher.swift in Sources */,
+				207022D520EA9FDF00C5CD6E /* MenuBar.swift in Sources */,
 				2050F7C120E1D3CB0040558D /* AppDelegate.swift in Sources */,
+				2050F7D720E341830040558D /* Extensions.swift in Sources */,
+				20D8765120FD778A002AB13A /* SubscriptionCell.swift in Sources */,
+				20D8764D20FC377C002AB13A /* feedCell.swift in Sources */,
+				2085A9BE20F6EF7B000D79DF /* ApiService.swift in Sources */,
+				20D8764F20FD73AC002AB13A /* TrendingCell.swift in Sources */,
+				207022D820EAC18100C5CD6E /* Video.swift in Sources */,
+				2050F7DA20E3424D0040558D /* ViewCell.swift in Sources */,
+				20901D4720EDB9F700EBEA8B /* SettingCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,12 +370,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2CHT85CB4Y;
-				INFOPLIST_FILE = tabExample/Info.plist;
+				INFOPLIST_FILE = videoApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.rjzg.com.tabExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rjzg.com.videoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -304,12 +388,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2CHT85CB4Y;
-				INFOPLIST_FILE = tabExample/Info.plist;
+				INFOPLIST_FILE = videoApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.rjzg.com.tabExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rjzg.com.videoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -319,7 +403,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2050F7B820E1D3CB0040558D /* Build configuration list for PBXProject "tabExample" */ = {
+		2050F7B820E1D3CB0040558D /* Build configuration list for PBXProject "videoApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2050F7D020E1D3CF0040558D /* Debug */,
@@ -328,7 +412,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2050F7D220E1D3CF0040558D /* Build configuration list for PBXNativeTarget "tabExample" */ = {
+		2050F7D220E1D3CF0040558D /* Build configuration list for PBXNativeTarget "videoApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2050F7D320E1D3CF0040558D /* Debug */,
@@ -340,13 +424,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		2050F7C720E1D3CB0040558D /* tabExample.xcdatamodeld */ = {
+		2050F7C720E1D3CB0040558D /* videoApp.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
 				2050F7C820E1D3CB0040558D /* tabExample.xcdatamodel */,
 			);
 			currentVersion = 2050F7C820E1D3CB0040558D /* tabExample.xcdatamodel */;
-			path = tabExample.xcdatamodeld;
+			path = videoApp.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

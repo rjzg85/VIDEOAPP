@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:tabExample.xcodeproj">
+      location = "self:/Users/RJMAC/Documents/Roberth/IOS/tabExample/videoApp.xcodeproj">
    </FileRef>
 </Workspace>
